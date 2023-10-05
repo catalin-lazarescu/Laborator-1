@@ -14,7 +14,7 @@ function on_cam_error(err)
 //----------------------------------------------- 
 var constraints = { audio: false, video: true }; 
 navigator.mediaDevices.getUserMedia(constraints).then(on_cam_success).catch(on_cam_error); 
-video.style.transform = "scaleX("-1")";
+video.style.transform = "scaleX(-1)";
 //----------------------------------------------- 
 function capteaza() 
 {
